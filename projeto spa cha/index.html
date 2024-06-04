@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA Universo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="navigate('home')">Início</a></li>
+                <li><a href="#planets" onclick="navigate('planets')">Planetas</a></li>
+                <li><a href="#stars" onclick="navigate('stars')">Estrelas</a></li>
+                <li><a href="#galaxies" onclick="navigate('galaxies')">Galáxias</a></li>
+            </ul>
+        </nav>
+        <main id="content">
+            <!-- O conteúdo dinâmico será carregado aqui -->
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
